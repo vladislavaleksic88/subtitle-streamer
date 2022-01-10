@@ -44,6 +44,12 @@ fetch('subtitle.srt')
   });
 ```
 
+### Start subtitles stream
+
+```ecmascript 6
+player.play();
+```
+
 ### Listen to the stream
 
 ```ecmascript 6
@@ -108,12 +114,6 @@ player.jumpTo(1000);
 
 ### Available informations
 
-```ecmascript 6
-player.isPlaying // boolean
-player.endTime // number in milliseconds
-```
-
-### Available events
 ```ecmascript 6
 player.isPlaying // boolean
 player.endTime // number in milliseconds
